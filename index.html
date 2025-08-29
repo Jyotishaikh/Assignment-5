@@ -3,10 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Emergency-Hotline</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
+    <!--navbar section  -->
+    <header class="bg-white border-b shadow sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto flex justify-between items-center px-4 py-3">
+            <!-- left side -->
+            <div class="flex items-center gap-3">
+                <img src="./assets/logo.png" alt="Govt. BD" class="w-10 h-10">
+                <h2 class="text-lg font-bold">Emergency Service</h2>
+            </div>
+            <!-- right side -->
+            <div class="flex items-center gap-6">
+                <div class="flex items-center gap-1">
+                    <p class="text-sm font-semibold text-gray-700">0</p>
+                    <img src="./assets/heart.png" alt="heart" class="w-6 h-6">
+                </div>
+                <div class="flex items-center gap-1">
+                    <p class="text-sm font-semibold text-gray-700">100</p>
+                    <img src="./assets/coin.png" alt="coin" class="w-6 h-6">
+                </div>
+                <div>
+                    <button class="bg-green-600 text-white text-sm font-semibold px-3 py-1 rounded-lg">
+                        <span>0</span> <span>Copy</span>
+                    </button>
+                </div>
+            </div>
+        </div>
 
+    </header>
     
     <script src="./script/script.js"></script>
 </body>
